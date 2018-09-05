@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700");
 
 body {
-    font-family: "Roboto", san-serif;
+  font-family: "Roboto", san-serif;
 }
 
 /*------------------------------------------Extra Styles*/
@@ -9,121 +9,164 @@ body {
 .container-fluid {
   padding: 0;
   margin: 0;
-  width: 100vw;  
+}
+
+.content-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 .row {
-    padding: 0;
-    margin: 0;
-    border: 0;  
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 /*------------------------------------------Navbar*/
 
 .navbar {
-    position: absolute;
-    border: 0;
-    top: 0;
-    left: 0;
-    margin: 0;
-    background-color: transparent;
-    z-index: 1;
-    padding: 0;
+  position: absolute;
+  border: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  background-color: transparent;
+  z-index: 1;
+  padding: 0;
 }
 
 .navbar-default .navbar-header {
-    padding-left: 20px;
-    margin: 0;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .navbar-default .navbar-collapse {
-    border-color: transparent;
-    margin: 0;
+  border-color: transparent;
+  margin: 0;
 }
 
 .navbar-default .navbar-toggle {
-    border: 0;
-    padding-right: 20px;
+  border: 0;
+  padding-right: 20px;
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .navbar .navbar-brand {
-    color: #3c3c3d;
+  color: #3c3c3d;
 }
 
 .navbar .navbar-brand:hover {
-    color: #c99d66;
+  color: #c99d66;
 }
 
 .navbar-default .navbar-nav li {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .navbar-default .navbar-nav li a {
-    color: #3c3c3d;
-    font-weight: 500;
-    font: 1em "Roboto";
-    margin: 5px;
+  color: #3c3c3d;
+  font-weight: 500;
+  font: 1em "Roboto";
+  margin: 5px;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    color: #c99d66;
-    background: transparent;
+  color: #c99d66;
+  background: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #c99d66;
-    border: 1px solid #c99d66;
-    background-color: rgba(0, 0, 0, 0.25)
+  color: #c99d66;
+  border: 1px solid #c99d66;
+  background-color: rgba(0, 0, 0, 0.25);
 }
-
 
 /*------------------------------------------Jumbotron*/
 
 .welcome-container {
-    height: 100vh;
+  height: 100vh;
 
-    background: url(/Milestone-Project-1-ETH/assets/images/ethereumbackg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url(/Milestone-Project-1-ETH/assets/images/ethereumbackg.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    position: relative;
-    margin: 0;
-    padding: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .welcome {
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
 }
 
 svg {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: drop-shadow(-2px 5px 15px #c99d66);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: drop-shadow(-2px 5px 15px #c99d66);
 }
 
 .welcome .title {
-    color: #c99d66;
-    border-bottom: 0.5px solid #c99d66;
-    font-weight: 600;
-    padding: 0;
-
+  color: #c99d66;
+  border-bottom: 0.5px solid #c99d66;
+  font-weight: 600;
+  padding: 0;
 }
+
+/*------------------------------------------About*/
+
+.about-container-wrapper{
+  background-color: #c99d66;  
+}
+/*------------------------------------------How it Works*/
+
+.howit-container-wrapper {
+  background-color: #ecf0f1;
+}
+/*------------------------------------------Smart Contracts*/
+
+.smartc-container-wrapper {
+  background-color: #3c3c3d;
+}
+/*------------------------------------------DApps*/
+
+.dapps-container-wrapper {
+  background-color: #ecf0f1;
+}
+/*------------------------------------------Resources*/
+
+.resources-container-wrapper {
+  background-color: #c99d66;
+}
+/*------------------------------------------Footer*/
+
+footer {
+  background-color: #3c3c3d;
+}
+/*------------------------------------------Media Queries*/
+
+
+/*------------------------------------------Keyframes*/
+
+
+
