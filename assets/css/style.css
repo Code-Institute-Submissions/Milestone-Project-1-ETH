@@ -185,6 +185,14 @@ blockquote.quote {
 .howit-container-wrapper {
   background-color: #ecf0f1;
 }
+
+.howit {
+  color: #c99d66;
+}
+
+.howit-section-right h3, h4, h5 {
+  color: #c99d66;
+}
 /*------------------------------------------Smart Contracts*/
 
 .smartc-container-wrapper {
