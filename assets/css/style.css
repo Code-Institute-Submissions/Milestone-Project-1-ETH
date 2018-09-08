@@ -12,8 +12,9 @@ body {
 }
 
 .content-container {
-    padding: 0;
-    margin: 0;
+    padding: 0 25px 0 50px;
+    font-size: 1.25em;
+    margin-bottom: 50px;
     border: 0;
 }
 
@@ -22,6 +23,22 @@ body {
   margin: 0;
   border: 0;
 }
+
+iframe {
+
+}
+
+/*------------------------------------------Section-Dividers*/
+
+.section-divider {
+  width: 80px;
+  height: 6px;
+  border: 0;
+  margin-top: 0;
+  background-color: #ecf0f1;
+}
+
+
 
 /*------------------------------------------Navbar*/
 
@@ -137,6 +154,27 @@ svg {
 
 .about-container-wrapper{
   background-color: #c99d66;  
+}
+
+.about {
+  color: #3c3c3d;
+}
+
+.about-section-left em {
+  color: #ecf0f1;
+}
+
+.about-section-right {
+  padding-top: 25px;
+}
+
+.about-section-right em {
+  color: #ecf0f1;
+}
+
+blockquote.quote {
+  border-left: 5px solid #3c3c3d;
+  margin-top: 50px;
 }
 /*------------------------------------------How it Works*/
 
