@@ -38,6 +38,10 @@ iframe {
   background-color: #ecf0f1;
 }
 
+.section-divider--dark {
+  background-color: #3c3c3d;
+}
+
 
 
 /*------------------------------------------Navbar*/
