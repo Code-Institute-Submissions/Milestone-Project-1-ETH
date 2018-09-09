@@ -198,6 +198,18 @@ blockquote.quote {
 .smartc-container-wrapper {
   background-color: #3c3c3d;
 }
+
+.smartc {
+  color: #c99d66;
+}
+
+.smartc-section-left {
+  color: #c99d66;
+}
+
+.smartc-section-left h2 {
+  color: #ecf0f1;
+}
 /*------------------------------------------DApps*/
 
 .dapps-container-wrapper {
