@@ -12,10 +12,10 @@ body {
 }
 
 .content-container {
-    padding: 0 25px 0 50px;
-    font-size: 1.25em;
-    margin-bottom: 50px;
-    border: 0;
+  padding: 0 25px 0 50px;
+  font-size: 1.25em;
+  margin-bottom: 50px;
+  border: 0;
 }
 
 .row {
@@ -25,7 +25,6 @@ body {
 }
 
 iframe {
-
 }
 
 /*------------------------------------------Section-Dividers*/
@@ -42,7 +41,9 @@ iframe {
   background-color: #3c3c3d;
 }
 
-
+.section-divider--color {
+  background-color: #c99d66;
+}
 
 /*------------------------------------------Navbar*/
 
@@ -156,8 +157,8 @@ svg {
 
 /*------------------------------------------About*/
 
-.about-container-wrapper{
-  background-color: #c99d66;  
+.about-container-wrapper {
+  background-color: #c99d66;
 }
 
 .about {
@@ -190,7 +191,9 @@ blockquote.quote {
   color: #c99d66;
 }
 
-.howit-section-right h3, h4, h5 {
+.howit-section-right h3,
+h4,
+h5 {
   color: #c99d66;
 }
 /*------------------------------------------Smart Contracts*/
@@ -203,21 +206,25 @@ blockquote.quote {
   color: #c99d66;
 }
 
-.smartc-section-left, .smartc-section-right {
+.smartc-section-left,
+.smartc-section-right {
   color: #c99d66;
 }
 
-.smartc-section-left h2, .smartc-section-right h2, h3{
+.smartc-section-left h2,
+.smartc-section-right h2,
+h3 {
   color: #ecf0f1;
 }
 
-.smartc-section-right h3 {
-
-}
 /*------------------------------------------DApps*/
 
 .dapps-container-wrapper {
   background-color: #ecf0f1;
+}
+
+.dapps-section-left h2 {
+  color: #c99d66;
 }
 /*------------------------------------------Resources*/
 
@@ -231,8 +238,4 @@ footer {
 }
 /*------------------------------------------Media Queries*/
 
-
 /*------------------------------------------Keyframes*/
-
-
-
