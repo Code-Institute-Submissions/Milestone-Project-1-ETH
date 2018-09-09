@@ -233,9 +233,11 @@ h3 {
   background-color: #c99d66;
 }
 
-.links-unstyled {
+.links-unstyled, .wallets-list{
   list-style: none;
 }
+
+ 
 /*------------------------------------------Footer*/
 
 footer {
