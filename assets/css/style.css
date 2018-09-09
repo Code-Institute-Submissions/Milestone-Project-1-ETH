@@ -223,7 +223,8 @@ h3 {
   background-color: #ecf0f1;
 }
 
-.dapps-section-left h2 {
+.dapps-section-left h2,
+h3 {
   color: #c99d66;
 }
 /*------------------------------------------Resources*/
