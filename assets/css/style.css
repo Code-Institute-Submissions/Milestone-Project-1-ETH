@@ -232,6 +232,10 @@ h3 {
 .resources-container-wrapper {
   background-color: #c99d66;
 }
+
+.links-unstyled {
+  list-style: none;
+}
 /*------------------------------------------Footer*/
 
 footer {
