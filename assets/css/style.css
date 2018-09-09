@@ -203,12 +203,16 @@ blockquote.quote {
   color: #c99d66;
 }
 
-.smartc-section-left {
+.smartc-section-left, .smartc-section-right {
   color: #c99d66;
 }
 
-.smartc-section-left h2 {
+.smartc-section-left h2, .smartc-section-right h2, h3{
   color: #ecf0f1;
+}
+
+.smartc-section-right h3 {
+
 }
 /*------------------------------------------DApps*/
 
