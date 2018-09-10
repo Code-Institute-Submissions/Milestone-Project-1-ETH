@@ -12,7 +12,7 @@ body {
 }
 
 .content-container {
-  padding: 0 25px 0 50px;
+  padding: 0 25px 0 25px;
   font-size: 1.25em;
   margin-bottom: 50px;
   border: 0;
@@ -257,6 +257,36 @@ fieldset{
   border: 2px solid #c99d66;
   padding: 10px;
   color: #c99d66;
+}
+
+.ticker-info {
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  color: #3c3c3d;
+  padding-top: 11px;
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 7px;
+  background: #ecf0f1;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #c99d66;
 }
 /*------------------------------------------Media Queries*/
 
