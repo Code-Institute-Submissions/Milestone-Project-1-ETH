@@ -242,6 +242,21 @@ h3 {
 
 footer {
   background-color: #3c3c3d;
+  color: #c99d66;
+}
+
+#footer-details {
+  margin: 20px;
+}
+
+fieldset{
+  margin-top: 50px;
+}
+
+.contact-form, legend {
+  border: 2px solid #c99d66;
+  padding: 10px;
+  color: #c99d66;
 }
 /*------------------------------------------Media Queries*/
 
