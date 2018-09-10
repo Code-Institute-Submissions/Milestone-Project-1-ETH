@@ -151,9 +151,14 @@ svg {
 
 .welcome .title {
   color: #c99d66;
-  border-bottom: 0.5px solid #c99d66;
+  border-bottom: 0.5px solid #ecf0f1;
   font-weight: 600;
   padding: 0;
+}
+
+.text-right {
+  font-size: 1.5em;
+  color: #c99d66;
 }
 
 /*------------------------------------------About*/
