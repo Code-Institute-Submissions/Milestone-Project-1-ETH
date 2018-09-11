@@ -188,6 +188,7 @@ svg {
 blockquote.quote {
   border-left: 5px solid #3c3c3d;
   margin-top: 50px;
+  background: rgba(0, 0, 0, 0.05);
 }
 /*------------------------------------------How it Works*/
 
@@ -220,8 +221,7 @@ h5 {
 }
 
 .smartc-section-left h2,
-.smartc-section-right h2,
-h3 {
+.smartc-section-right h2 {
   color: #ecf0f1;
 }
 
@@ -231,8 +231,7 @@ h3 {
   background-color: #ecf0f1;
 }
 
-.dapps-section-left h2,
-h3 {
+.dapps-section-left h2, h3{
   color: #c99d66;
 }
 /*------------------------------------------Resources*/
