@@ -239,11 +239,12 @@ h3 {
   background-color: #c99d66;
 }
 
-.links-unstyled, .wallets-list{
+.links-unstyled, .wallets-list {
   list-style: none;
+  padding: 0;
 }
 
- 
+
 /*------------------------------------------Footer*/
 
 footer {
