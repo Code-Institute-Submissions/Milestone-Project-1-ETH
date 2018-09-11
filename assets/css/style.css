@@ -121,7 +121,7 @@ iframe {
 .welcome-container {
   height: 100vh;
 
-  background: url(https://github.com/John-E5/Milestone-Project-1-ETH/assets/images/ethereumbackg.jpg)
+  background: url(https://github.com/John-E5/Milestone-Project-1-ETH/blob/master/assets/images/ethereumbackg.jpg)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
