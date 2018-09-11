@@ -123,10 +123,10 @@ iframe {
 .welcome-container {
   height: 100vh;
 
-  background: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.gif);
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-position: center;
+  background-image: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -166,13 +166,15 @@ svg {
 }
 
 .focus-in-expand {
-	-webkit-animation: focus-in-expand 1.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-expand 1.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: focus-in-expand 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: focus-in-expand 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .text-focus-in {
-	-webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
-	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s
+    both;
+  animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s both;
 }
 
 /*------------------------------------------About*/
@@ -243,7 +245,8 @@ h5 {
   background-color: #ecf0f1;
 }
 
-.dapps-section-left h2, h3{
+.dapps-section-left h2,
+h3 {
   color: #c99d66;
 }
 /*------------------------------------------Resources*/
@@ -252,11 +255,11 @@ h5 {
   background-color: #c99d66;
 }
 
-.links-unstyled, .wallets-list {
+.links-unstyled,
+.wallets-list {
   list-style: none;
   padding: 0;
 }
-
 
 /*------------------------------------------Footer*/
 
@@ -269,11 +272,12 @@ footer {
   margin: 20px;
 }
 
-fieldset{
+fieldset {
   margin-top: 50px;
 }
 
-.contact-form, legend {
+.contact-form,
+legend {
   border: 2px solid #c99d66;
   padding: 10px;
   color: #c99d66;
@@ -334,10 +338,10 @@ fieldset{
     float: none !important;
     margin: 7.5px -15px;
   }
-  .navbar-nav>li {
+  .navbar-nav > li {
     float: none;
   }
-  .navbar-nav>li>a {
+  .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -354,16 +358,16 @@ fieldset{
  * animation focus-in-expand
  * ----------------------------------------
  */
- @-webkit-keyframes focus-in-expand {
+@-webkit-keyframes focus-in-expand {
   0% {
     letter-spacing: -0.5em;
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
@@ -371,12 +375,12 @@ fieldset{
   0% {
     letter-spacing: -0.5em;
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
@@ -391,29 +395,27 @@ fieldset{
  * animation text-focus-in
  * ----------------------------------------
  */
- @-webkit-keyframes text-focus-in {
+@-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
-
-
