@@ -123,8 +123,10 @@ iframe {
 .welcome-container {
   height: 100vh;
 
-  background: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.png)
-    no-repeat center center fixed;
+  background: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.png);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
