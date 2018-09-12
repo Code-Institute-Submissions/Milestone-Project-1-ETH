@@ -312,6 +312,23 @@ legend {
 .social-links li a i:hover {
   background: #c99d66;
 }
+
+/*------------------------------------------Modal*/
+
+.modal-header {
+  border-bottom: 0;
+  background-color: #3c3c3d;
+}
+
+.modal-body {
+  background-color: #c99d66;
+}
+
+.modal-footer {
+  background-color: #3c3c3d;
+  border-top: 0;
+}
+
 /*------------------------------------------Media Queries*/
 
 @media screen and (max-width: 960px) {
