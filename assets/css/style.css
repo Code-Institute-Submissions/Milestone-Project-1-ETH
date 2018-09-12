@@ -122,13 +122,15 @@ iframe {
 
 .welcome-container {
   height: 100vh;
-
+  width: 100%;
   background-image: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.gif);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
