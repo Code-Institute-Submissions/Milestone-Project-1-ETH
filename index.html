@@ -36,7 +36,7 @@
                         <li><a class="active" href="#smartContracts">Smart Contracts</a></li>
                         <li><a class="active" href="#dapps">About DApps</a></li>
                         <li><a class="active" href="#resources">Resources</a></li>
-                        <li><a class="active" href="#myModal">Contact Us</a></li>
+                        <li><a class="active" href="#myModal" data-toggle="modal" data-target="#myModal">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +45,7 @@
     </header>
     <!-- /.nav -->
 
-    <!-- Jumbotron -->
+    <!-- Welcome -->
     <div class="container-fluid welcome-container">
         <div class="row">
             <div class="col-xs-12">
@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-    <!-- /.jumbotron -->
+    <!-- /.welcome -->
 
     <!-- About -->
     <div id="about" class="container-fluid about-container-wrapper">
@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="about-section-left">
-                            <h3><strong><em>Ethereum </em></strong></h3>
+                        <h3><strong><em>Ethereum </em></strong></h3>
                         <p>
                             is a decentralized blockchain platform for building
                             <a href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank">decentralized
@@ -117,12 +117,11 @@
                             transactions, it can also be used to create massively decentralised contracts and applications.
                         </p>
 
-                            <h3><strong><em>Blockchain </em></strong></h3> 
-                            <p>
-                            means that the currency is built and secured by
-                            adding and verifying blocks of transactions(Mining) to blocks made previously, thus forming a
-                            "chain". Blocks added to the chain become harder and harder to crack over time, as they are verified
-                            by more nodes in the blockchain peer-to-peer network.
+                        <h3><strong><em>Blockchain </em></strong></h3>
+                        <p>
+                            means that the currency is built and secured by adding and verifying blocks of transactions(Mining) to blocks made previously,
+                            thus forming a "chain". Blocks added to the chain become harder and harder to crack over time,
+                            as they are verified by more nodes in the blockchain peer-to-peer network.
                         </p>
 
                         <img src="assets/images/blockchain.png" class="img-responsive" alt="Blockchain infographic">
@@ -156,8 +155,8 @@
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <div class="howit-section-right">
-                            <h3><strong><em>Ethereum Mining </em></strong></h3>
-                            <p>
+                        <h3><strong><em>Ethereum Mining </em></strong></h3>
+                        <p>
                             is a process of <a href="https://www.huffingtonpost.com/entry/ethereum-mining-101-your-complete-guide_us_58b6e1eee4b02f3f81e44e9f"
                                 target="_blank">solving complex mathematical problems
                             </a> . Miners are essentially the cornerstone of any cryptocurrency network as they spend their
@@ -194,7 +193,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="smartc-section-left">
-                            <h2>Smart Contracts</h2>
+                        <h2>Smart Contracts</h2>
                         <p>
                             are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of
                             code. The code and the agreements contained therein exist across a distributed, decentralized
@@ -392,6 +391,28 @@
 
     </footer>
     <!-- /.footer -->
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Contact Us</h4>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- /.modal -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
