@@ -127,10 +127,6 @@ iframe {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  width: 100% auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 
   display: flex;
