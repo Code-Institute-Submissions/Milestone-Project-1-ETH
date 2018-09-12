@@ -122,8 +122,9 @@ iframe {
 
 .welcome-container {
   height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
+  min-height: 440px;
+  max-height: 800px;
+  background-image: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.gif);  background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
