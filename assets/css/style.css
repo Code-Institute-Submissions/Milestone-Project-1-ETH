@@ -342,6 +342,11 @@ legend {
   right: 20px;
   background-color: transparent;
   border: 0;
+  color: #c99d66;
+}
+
+.back-to-top:hover {
+  background-color: #3c3c3d;
 }
 
 /*------------------------------------------Media Queries*/
