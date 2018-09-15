@@ -87,6 +87,10 @@ iframe {
   margin: 0;
 }
 
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 540px;
+}
+
 .navbar-default .navbar-toggle {
   border: 0;
   padding-right: 20px;
@@ -365,7 +369,6 @@ legend {
 
   .navbar-default .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
     width: 100%;
   }
   .navbar-collapse .collapse {
