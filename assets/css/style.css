@@ -87,7 +87,7 @@ iframe {
   margin: 0;
 }
 
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+.navbar-fixed-top .navbar-collapse {
   max-height: 540px;
 }
 
