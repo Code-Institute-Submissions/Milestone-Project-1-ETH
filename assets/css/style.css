@@ -64,7 +64,7 @@ iframe {
 .navbar.solid {
   background-color: #c99d66;
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
+  box-shadow: 0 0 4px #c99d66;
 }
 
 
@@ -352,13 +352,13 @@ legend {
   .navbar-default .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
+    width: 100%;
   }
   .navbar-collapse .collapse {
     display: none !important;
   }
 
   .navbar-nav {
-    float: none !important;
     margin: 7.5px -15px;
   }
   .navbar-nav > li {
@@ -370,7 +370,7 @@ legend {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 960px) {
   .navbar-collapse.collapse {
       display: none !important;
   }
