@@ -445,7 +445,8 @@
                 </div>
             </div>
         </div>
-
+        <h5 class="text-center">Copyright <a href="https://ethereum.org">Ethereum Foundation 2018.</a><br><small><i style="color:#ecf0f1">Design
+                    by John Ennis</i></small> </h5>
     </footer>
     <!-- /.footer -->
 
@@ -486,7 +487,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send</button>
+                    <button type="button" class="btn btn-primary">Send<i class="fas fa-paper-plane"></i></button>
                 </div>
             </div>
         </div>
@@ -502,50 +503,51 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous">
-        </script>
-
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-
-        <script>
-            $(document).ready(function () {
-                // Transition effect for navbar 
-                $(window).scroll(function () {
-                    // checks if window is scrolled more than 400px, adds/removes solid class
-                    if ($(this).scrollTop() > 400) {
-                        $('.navbar').addClass('solid');
-                    } else {
-                        $('.navbar').removeClass('solid');
-                    }
-                });
-            });
-
-            $('.navbar-collapse a').click(function (e) {
-                $('.navbar-collapse').collapse('toggle');
-            });
 
         </script>
 
-        <script>
-            $(document).ready(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 50) {
-                        $('#back-to-top').fadeIn();
-                    } else {
-                        $('#back-to-top').fadeOut();
-                    }
-                });
-                // scroll body to 0px on click
-                $('#back-to-top').click(function () {
-                    $('#back-to-top').tooltip('hide');
-                    $('body,html').animate({
-                        scrollTop: 0
-                    }, 800);
-                    return false;
-                });
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Transition effect for navbar 
+            $(window).scroll(function () {
+                // checks if window is scrolled more than 400px, adds/removes solid class
+                if ($(this).scrollTop() > 400) {
+                    $('.navbar').addClass('solid');
+                } else {
+                    $('.navbar').removeClass('solid');
+                }
             });
-        </script>
+        });
+
+        $('.navbar-collapse a').click(function (e) {
+            $('.navbar-collapse').collapse('toggle');
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+    </script>
 </body>
 
 </html>
