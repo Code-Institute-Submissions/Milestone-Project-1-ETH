@@ -481,6 +481,12 @@
 
     <!-- /.modal -->
 
+    <!-- Back To Top -->
+
+    <a href="#" id="back-to-top" class="btn btn-primary btn-lg back-to-top" role="button" title="Back to Top"
+        data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
         crossorigin="anonymous"></script>
 
@@ -502,7 +508,28 @@
 
         $('.navbar-collapse a').click(function (e) {
             $('.navbar-collapse').collapse('toggle');
-          });
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
     </script>
 </body>
 
