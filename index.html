@@ -487,50 +487,52 @@
         data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-        crossorigin="anonymous"></script>
+    <<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+        </script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
 
-    <script>
-        $(document).ready(function () {
-            // Transition effect for navbar 
-            $(window).scroll(function () {
-                // checks if window is scrolled more than 400px, adds/removes solid class
-                if ($(this).scrollTop() > 400) {
-                    $('.navbar').addClass('solid');
-                } else {
-                    $('.navbar').removeClass('solid');
-                }
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function () {
+                // Transition effect for navbar 
+                $(window).scroll(function () {
+                    // checks if window is scrolled more than 400px, adds/removes solid class
+                    if ($(this).scrollTop() > 400) {
+                        $('.navbar').addClass('solid');
+                    } else {
+                        $('.navbar').removeClass('solid');
+                    }
+                });
             });
-        });
 
-        $('.navbar-collapse a').click(function (e) {
-            $('.navbar-collapse').collapse('toggle');
-        });
-
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 50) {
-                    $('#back-to-top').fadeIn();
-                } else {
-                    $('#back-to-top').fadeOut();
-                }
+            $('.navbar-collapse a').click(function (e) {
+                $('.navbar-collapse').collapse('toggle');
             });
-            // scroll body to 0px on click
-            $('#back-to-top').click(function () {
-                $('#back-to-top').tooltip('hide');
-                $('body,html').animate({
-                    scrollTop: 0
-                }, 800);
-                return false;
+
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 50) {
+                        $('#back-to-top').fadeIn();
+                    } else {
+                        $('#back-to-top').fadeOut();
+                    }
+                });
+                // scroll body to 0px on click
+                $('#back-to-top').click(function () {
+                    $('#back-to-top').tooltip('hide');
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
             });
-        });
-    </script>
+        </script>
 </body>
 
 </html>
