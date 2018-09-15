@@ -106,7 +106,7 @@
                             achieve better decision making for public good.
                         </p>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MUndhz0xHOs" allow="autoplay; encrypted-media"
+                            <iframe width="560" height="315" src="" data-src="https://www.youtube.com/embed/MUndhz0xHOs" allow="autoplay; encrypted-media"
                                 allowfullscreen></iframe>
                         </div>
                         <p>
@@ -239,7 +239,7 @@
                             They render transactions traceable, transparent, and irreversible,
                         </p>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/adnDtkz7nGE" allow="autoplay; encrypted-media"
+                            <iframe width="560" height="315" src="" data-src="https://www.youtube.com/embed/adnDtkz7nGE" allow="autoplay; encrypted-media"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
@@ -394,10 +394,10 @@
                 <div class="col-xs-12 col-md-6">
                     <div class="resources-section-right">
                         <h2>Podcasts</h2>
-                        <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/6209209/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/13c9ff/"
+                        <iframe style="border: none" src="" data-src="//html5-player.libsyn.com/embed/episode/id/6209209/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/13c9ff/"
                             height="130" width="100%"></iframe>
 
-                        <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/6983345/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3a7ba9/"
+                        <iframe style="border: none" src="" data-src="//html5-player.libsyn.com/embed/episode/id/6983345/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3a7ba9/"
                             height="130" width="100%"></iframe>
 
                     </div>
@@ -428,7 +428,7 @@
             </div>
             <div class="col-xs-12 col-md-6">
                 <div class="ticker-info">
-                    <script src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                    <script defer src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
                     <div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="EUR" data-ticker="true"
                         data-rank="true" data-marketcap="true" data-volume="true" data-stats="EUR" data-statsticker="false"></div>
                 </div>
@@ -445,7 +445,8 @@
                 </div>
             </div>
         </div>
-        <h5 class="text-center">Copyright <a href="https://ethereum.org">Ethereum Foundation 2018.</a><br><small><i style="color:#ecf0f1">Design
+        <h5 class="text-center">Copyright <a href="https://ethereum.org">Ethereum Foundation 2018.</a><br><small><i
+                    style="color:#ecf0f1">Design
                     by John Ennis</i></small> </h5>
     </footer>
     <!-- /.footer -->
@@ -502,13 +503,23 @@
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous">
-
-        </script>
-
+        crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+
+        <!-- defer iframes -->
+    <script>
+        function init() {
+            var vidDefer = document.getElementsByTagName('iframe');
+            for (var i = 0; i < vidDefer.length; i++) {
+                if (vidDefer[i].getAttribute('data-src')) {
+                    vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
+                }
+            }
+        }
+        window.onload = init;
+    </script>
 
     <script>
         $(document).ready(function () {
