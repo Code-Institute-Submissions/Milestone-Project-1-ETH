@@ -28,6 +28,10 @@ iframe {
   padding: 20px 0 20px 0;
 }
 
+a {
+  color: #ecf0f1;
+}
+
 /*------------------------------------------Section-Dividers*/
 
 .section-divider {
@@ -142,8 +146,6 @@ iframe {
 
 .welcome-container {
   height: 100vh;
-  min-height: 440px;
-  max-height: 800px;
   background-image: url(https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/ethereumbackg.gif);  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
