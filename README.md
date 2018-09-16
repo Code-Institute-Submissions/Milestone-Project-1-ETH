@@ -1,3 +1,4 @@
+![ethereum logo](https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/main-img.png) 
 # Ethereum | Eco-system Overview
 
 One or two paragraphs providing an overview of your project.
