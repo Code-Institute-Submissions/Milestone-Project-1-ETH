@@ -1,18 +1,30 @@
 ![ethereum logo](https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/main-img.png) 
 # Ethereum | Eco-system Overview
 
-One or two paragraphs providing an overview of your project.
+This Website was developed for Code Institute's User Centic Front End Development Project 1 and is based on the **Ethereum Blockchain App Platform**.
+It's a one page website that gives a brief overview of the ethereum eco-system and related services.
 
-Essentially, this part is your sales pitch.
+
+
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I decided to develop this website with a focus on new users to ethereum and blockchain technology and also focus on existing users looking to find more information on the ethereum eco-system.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Topic's include:
+1. Ethereum
+2. Blockchain
+3. Smart Contracts
+4. Decentralized Applications
+5. Mining
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+In the initial stages of development the 5 planes of activity were used to design a user focused one page website with simple navigation and a brief overview of related topics with relevent external linking used to expand on topics and provide valuable resources for the user.
+
+
+### User Stories:
+- As a new user to ethereum and blockchain technology, I want to find infomation on what ethereum is about and how it works, so that I can learn about Blockchain technology and ethereum, download a wallet and use it as an information hub.
+
+- As an existing user, I want to source information on ethereum and learn more about smart contracts and decentralized apps.
+
 [Wireframes](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Milestone-Project-1-ETH-Wireframes.pdf)
 
 ## Features
