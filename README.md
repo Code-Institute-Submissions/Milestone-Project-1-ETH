@@ -171,6 +171,9 @@ For this project i used
 - [GoogleFonts](https://fonts.google.com/?selection.family=Roboto)
     - The project uses **GoogleFonts** to add the font Roboto to site.
 
+- [Normalise.css](http://necolas.github.io/normalize.css/)
+    - The project uses **Normalise.css** to perform a css reset.
+
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to control scrolling and toggle features.
 
