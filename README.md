@@ -31,40 +31,40 @@ The color pallette I chose came from the offical [https://john-e5.github.io/Mile
 - As an existing user, I want to source information on ethereum and learn more about smart contracts and decentralized apps and see the current price of ethereum, find and download a wallet.
 
 #### New and Existing Users
-1. Go to Homepage
-2. Click About tab in the navigation bar or scroll down
-3. Read about ethereum
-4. Watch short explainer video
-5. Click available text links to learn more
-..* _Decentralized Applications_
-..* _Blockchain_
-..* _Coinmarketcap(price info)_
-6. Scroll to How it Works or toggle the menu icon to reveal the navigation and click how it works
-7. Read how it works
-8. View how it works infographic
-9. Click text link to learn more
-..* _solving complex mathematical problems(Mining)_
-10. Navigate to smart contracts
-11. Read about Smart Contracts
-12. Watch smart contracts explainer video
-13. Read about use cases
-14. Click text link to learn more
-..* _Smart contracts_
-15. Navigate to About DApps 
-16. Read about DApps
-17. View DApps infographic
-18. Click text link to learn more
-..* _decentralized autonomous organization(DAO)_
-19. Navigate to Resources
-20. Check additional info for links to external resources
-21. Check wallets to download or use a wallet
-22. Click play on podcasts to hear content
-..* _Podcast 1: An Ethereum Podcast: Episode #12_
-..* _Podcast 2: Dose of Ether #1: Keeping Up DAppearances_
-23. Navigate to Footer
-24. Fill out contact form to request more info
-25. View Coinmarketcap ETH price widget
-26. Click social icons to follow and view ethereum social media channels
+* Go to Homepage
+* Click About tab in the navigation bar or scroll down
+* Read about ethereum
+* Watch short explainer video
+* Click available text links to learn more
+1. _Decentralized Applications_
+2. _Blockchain_
+3. _Coinmarketcap(price info)_
+* Scroll to How it Works or toggle the menu icon to reveal the navigation and click how it works
+* Read how it works
+* View how it works infographic
+* Click text link to learn more
+1. _solving complex mathematical problems(Mining)_
+* Navigate to smart contracts
+* Read about Smart Contracts
+* Watch smart contracts explainer video
+* Read about use cases
+* Click text link to learn more
+1. _Smart contracts_
+* Navigate to About DApps 
+* Read about DApps
+* View DApps infographic
+* Click text link to learn more
+1. _decentralized autonomous organization(DAO)_
+* Navigate to Resources
+* Check additional info for links to external resources
+* Check wallets to download or use a wallet
+* Click play on podcasts to hear content
+1. _Podcast 1: An Ethereum Podcast: Episode #12_
+2. _Podcast 2: Dose of Ether #1: Keeping Up DAppearances_
+* Navigate to Footer
+* Fill out contact form to request more info
+* View Coinmarketcap ETH price widget
+* Click social icons to follow and view ethereum social media channels
 
 
 
