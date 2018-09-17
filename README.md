@@ -13,16 +13,16 @@ I decided to develop this website with a focus on new users to ethereum and bloc
  
 
 ### Topic's include:
-1. _Ethereum_
-2. _Blockchain_
-3. _Smart Contracts_
-4. _Decentralized Applications_
-5. _Mining_
+* _Ethereum_
+* _Blockchain_
+* _Smart Contracts_
+* _Decentralized Applications_
+* _Mining_
 
 In the initial stages of development the 5 planes of activity were used to design a user focused one page website with simple navigation and a brief overview of related topics with relevent external linking used to expand on topics and provide valuable resources for the user.
 
 ### Style:
-The color pallette I chose came from the offical [https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Ethereum_Visual_Identity_1.0.0.pdf](Ethereum visual identity guidelines)
+The color pallette and Logo I chose came from the offical [Ethereum visual identity guidelines](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Ethereum_Visual_Identity_1.0.0.pdf)
 
 
 ### User Stories:
@@ -31,45 +31,73 @@ The color pallette I chose came from the offical [https://john-e5.github.io/Mile
 - As an existing user, I want to source information on ethereum and learn more about smart contracts and decentralized apps and see the current price of ethereum, find and download a wallet.
 
 #### New and Existing Users
-* Go to Homepage
-* Click About tab in the navigation bar or scroll down
-* Read about ethereum
-* Watch short explainer video
-* Click available text links to learn more
-1. _Decentralized Applications_
-2. _Blockchain_
-3. _Coinmarketcap(price info)_
-* Scroll to How it Works or toggle the menu icon to reveal the navigation and click how it works
-* Read how it works
-* View how it works infographic
-* Click text link to learn more
-1. _solving complex mathematical problems(Mining)_
-* Navigate to smart contracts
-* Read about Smart Contracts
-* Watch smart contracts explainer video
-* Read about use cases
-* Click text link to learn more
-1. _Smart contracts_
-* Navigate to About DApps 
-* Read about DApps
-* View DApps infographic
-* Click text link to learn more
-1. _decentralized autonomous organization(DAO)_
-* Navigate to Resources
-* Check additional info for links to external resources
-* Check wallets to download or use a wallet
-* Click play on podcasts to hear content
-1. _Podcast 1: An Ethereum Podcast: Episode #12_
-2. _Podcast 2: Dose of Ether #1: Keeping Up DAppearances_
-* Navigate to Footer
-* Fill out contact form to request more info
-* View Coinmarketcap ETH price widget
-* Click social icons to follow and view ethereum social media channels
+
+##### Home Section
+
+1. Go to [Homepage](https://john-e5.github.io/Milestone-Project-1-ETH/)
+2. Click a section tab in the navigation bar or scroll down
+
+##### About Section
+
+1. Read about ethereum
+2. Watch short explainer video
+3. Click available text links to learn more
+    * _Decentralized Applications_
+    * _Blockchain_
+    * _Coinmarketcap(price info)_
+
+
+##### How it Works Section
+
+1. Scroll to How it Works or toggle the menu icon to reveal the navigation and click how it works
+2. Read how it works
+3. View how it works infographic
+4. Click text link to learn more
+    * _solving complex mathematical problems(Mining)_
+
+##### Smart contract Section
+
+1. Navigate to smart contracts
+2. Read about Smart Contracts
+3. Watch smart contracts explainer video
+4. Read about use cases
+5. Click text link to learn more
+    * _Smart contracts_
+
+##### About Dapps
+1. Navigate to About DApps 
+2. Read about DApps
+3. View DApps infographic
+4. Click text link to learn more
+    * _decentralized autonomous organization(DAO)_
+
+##### Resources Section
+
+1. Navigate to Resources
+2. Check additional info for links to external resources
+3. Check wallets to download or use a wallet
+4. Click play on podcasts to hear content
+    * _Podcast 1: An Ethereum Podcast: Episode #12_
+    * _Podcast 2: Dose of Ether #1: Keeping Up DAppearances_
+
+##### Footer Section
+
+1. Navigate to Footer
+2. Fill out contact form to request more info
+3. View Coinmarketcap ETH price widget
+4. Click social icons to follow and view ethereum social media channels
+
+##### Contact Us Section
+
+1. Click Contact Us tab
+2. when modal opens 
+    * View contact details(Phone Number, Address)
+    * Enter Name, Email Address and a short message
+        (N.B Email doesn't currently work as it is beyond the scope of the project)
 
 
 
-
-[Wireframes](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Milestone-Project-1-ETH-Wireframes.pdf)
+View the [Wireframes](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Milestone-Project-1-ETH-Wireframes.pdf)
 
 ## Features
 
