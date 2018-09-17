@@ -1,5 +1,6 @@
-![ethereum logo](https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/main-img.png) 
 # Ethereum | Eco-system Overview
+![ethereum logo](https://john-e5.github.io/Milestone-Project-1-ETH/assets/images/main-img.png) 
+
 
 This Website was developed for Code Institute's User Centic Front End Development Project 1 and is based on the **Ethereum Blockchain App Platform**.
 It's a one page website that gives a brief overview of the ethereum eco-system and related services.
@@ -9,21 +10,64 @@ It's a one page website that gives a brief overview of the ethereum eco-system a
  
 ## UX
 I decided to develop this website with a focus on new users to ethereum and blockchain technology and also focus on existing users looking to find more information on the ethereum eco-system.
+ 
 
 ### Topic's include:
-1. Ethereum
-2. Blockchain
-3. Smart Contracts
-4. Decentralized Applications
-5. Mining
+1. _Ethereum_
+2. _Blockchain_
+3. _Smart Contracts_
+4. _Decentralized Applications_
+5. _Mining_
 
 In the initial stages of development the 5 planes of activity were used to design a user focused one page website with simple navigation and a brief overview of related topics with relevent external linking used to expand on topics and provide valuable resources for the user.
 
+### Style:
+The color pallette I chose came from the offical [https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Ethereum_Visual_Identity_1.0.0.pdf](Ethereum visual identity guidelines)
+
 
 ### User Stories:
-- As a new user to ethereum and blockchain technology, I want to find infomation on what ethereum is about and how it works, so that I can learn about Blockchain technology and ethereum, download a wallet and use it as an information hub.
+- As a new user to ethereum and blockchain technology, I want to find infomation on what ethereum is about and how it works.
 
-- As an existing user, I want to source information on ethereum and learn more about smart contracts and decentralized apps.
+- As an existing user, I want to source information on ethereum and learn more about smart contracts and decentralized apps and see the current price of ethereum, find and download a wallet.
+
+#### New and Existing Users
+1. Go to Homepage
+2. Click About tab in the navigation bar or scroll down
+3. Read about ethereum
+4. Watch short explainer video
+5. Click available text links to learn more
+..* _Decentralized Applications_
+..* _Blockchain_
+..* _Coinmarketcap(price info)_
+6. Scroll to How it Works or toggle the menu icon to reveal the navigation and click how it works
+7. Read how it works
+8. View how it works infographic
+9. Click text link to learn more
+..* _solving complex mathematical problems(Mining)_
+10. Navigate to smart contracts
+11. Read about Smart Contracts
+12. Watch smart contracts explainer video
+13. Read about use cases
+14. Click text link to learn more
+..* _Smart contracts_
+15. Navigate to About DApps 
+16. Read about DApps
+17. View DApps infographic
+18. Click text link to learn more
+..* _decentralized autonomous organization(DAO)_
+19. Navigate to Resources
+20. Check additional info for links to external resources
+21. Check wallets to download or use a wallet
+22. Click play on podcasts to hear content
+..* _Podcast 1: An Ethereum Podcast: Episode #12_
+..* _Podcast 2: Dose of Ether #1: Keeping Up DAppearances_
+23. Navigate to Footer
+24. Fill out contact form to request more info
+25. View Coinmarketcap ETH price widget
+26. Click social icons to follow and view ethereum social media channels
+
+
+
 
 [Wireframes](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Milestone-Project-1-ETH-Wireframes.pdf)
 
