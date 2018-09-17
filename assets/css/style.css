@@ -109,7 +109,7 @@ a {
 }
 
 .navbar .navbar-brand {
-  color: #3c3c3d;
+  color: #ecf0f1;
   font-weight: 600;
   padding: 10px 0 0 0;
 }
@@ -240,12 +240,16 @@ h5 {
 
 .smartc-section-left,
 .smartc-section-right {
-  color: #c99d66;
+  color: #ecf0f1;
 }
 
 .smartc-section-left h2,
 .smartc-section-right h2 {
-  color: #ecf0f1;
+  color: #c99d66;
+}
+
+.smartc-section-right h3 {
+  color: #c99d66;
 }
 
 /*------------------------------------------DApps*/
@@ -268,6 +272,10 @@ h3 {
 .wallets-list {
   list-style: none;
   padding: 0;
+}
+.links li,
+.wallets-list li {
+  padding-top: 5px;
 }
 
 /*------------------------------------------Footer*/
