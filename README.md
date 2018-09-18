@@ -99,7 +99,7 @@ apart from the home section I decided to use full color backgrounds to highlight
 
 
 
-View the [Wireframes](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Milestone-Project-1-ETH-Wireframes.pdf/Docs/Milestone-Project-1-ETH-Wireframes.pdf)
+View the [Wireframes](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/Milestone-Project-1-ETH-Wireframes.pdf)
 
 ## Features
 
