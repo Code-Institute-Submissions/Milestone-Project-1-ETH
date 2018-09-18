@@ -142,6 +142,7 @@ The _Desktop_ view also has a transparent navigation bar but differs in that the
 The navigation bar background changes from transparent to colored on scroll to make it visable to the user for easier navigation.
 I added a back to top feature to aid in easier navigation after the user has scrolled down the page, its a small icon that auto hides when not scrolling, when clicked it scrolls the page back up to the home section.
 The site uses Jquery scripts to control some navigaton features and smooth scrolling for the back to top feature.
+The site also features SEO Metatags and a favicon to display in the browser tab.
 
 ### Features Left to Implement
 
@@ -151,7 +152,7 @@ The site uses Jquery scripts to control some navigaton features and smooth scrol
 
 ## Technologies Used
 
-For this project i used
+For this project I used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
     - The project uses **HTML5** to structure the content in line with modern semantic html5.
@@ -180,43 +181,92 @@ For this project i used
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing for this project was done with several browsers and devices.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Browsers
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Mobile
+- Firefox
+- Chrome
+- Safari
+- Opera
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### Desktop
+- Firefox
+- Chrome
+- Opera
+- Edge
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Devices
+- Hp Laptop 
+- Lenovo Laptop
+- Huawei Nexus 6P android phone
+- Samsung Galaxy Tab 4
+- Samsung Galaxy J3
+- Iphone 6s
+- Iphone 7
+- Ipad AIR  
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+During testing i used Firefox Developer tools to test the responsive design and features of the page using different preset device templates in Firefox, I also used actual devices for testing, pushing changes to git and then testing the site on devies.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+While testing on actual devices I noticed the main background image didn't load on IOS devices running mobile safari, I was unsure what was causing the issue and researched the bug online which gave a few suggestions for fixes which I implemented and resolved the issue after a few attempts. 
+
+#### To Test
+1. IOS Image Test:
+    1. Go to the "Home" page on mobile safari device
+    2. View main Background Image
+
+While testing and resolving this issue i learned that it would have been more productive and efficent to do testing on a feature branch and merge the changes once fixed.
+
+### Animation Testing
+
+For the text animations i started using animista.com at first but changed to use the animate.css framework because during testing i noticed the animista animations were causing page load issue's and the animations weren't smooth and i felt it gave a bad user experience when first viewing the page.
+
+1. Animation Testing:
+    1. Go to the "Home" page
+    2. View title animation
+    3. See smooth text animations
+
+For the page scroll animation i tested using firefox developer tools to adjust the timing of when the animation would be triggered i chose a sooner value to help the transition to begin earlier
+
+1. Animation scroll Testing:
+    1. Go to the "Home" page
+    2. Scroll down the page
+    3. See Navbar background color change
+
+### Navigation Testing
+
+The navigation was tested on different screen sizes to make sure all elements aligned correctly, while testing i noticed the navigation items were getting pushed down on tablet screens so i adjusted the break point with media queries to allow the navbar to collapse upto a screen size of 1160px.
+
+1. Navigation Testing:
+    1. View the homepage on tablet screen 
+    2. Click Hamburger style icon
+    3. View Dropdown menu
+
+### Validation Testing
+
+For _HTML_ validation testing I used [W3 Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohn-e5.github.io%2FMilestone-Project-1-ETH%2F) which shows the html document to be valid.
+
+For _CSS_ validation testing I used [W3 CSS Validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjohn-e5.github.io%2FMilestone-Project-1-ETH%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=) which shows the stylesheet to be valid CSS3.
+
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This page has been deployed to [Github Pages](https://john-e5.github.io/Milestone-Project-1-ETH/)
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text content was sourced from ethereum.org, blockgeeks.com and the ethereum wiki
 
 ### Media
-- The photos used in this site were obtained from ...
+- The Infographics were sourced from blockgeeks
+- The videos were sourced from youtube
+- The podcasts were sourced from the bitcoin podcast network
+
+See [credits.md](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/credits.md) for full credits.
 
 ### Acknowledgements
 
