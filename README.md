@@ -266,8 +266,8 @@ This page has been deployed to [Github Pages](https://john-e5.github.io/Mileston
 - The videos were sourced from youtube
 - The podcasts were sourced from the bitcoin podcast network
 
-See [credits.md](https://john-e5.github.io/Milestone-Project-1-ETH/Docs/credits.md) for full credits.
+See [credits.md](https://github.com/John-E5/Milestone-Project-1-ETH/blob/master/Docs/credits.md) for full credits.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the ethereum foundation, the ethereum wiki and blockgeeks.
